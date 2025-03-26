@@ -13,24 +13,45 @@
     padding: 15px 20px;
     background-color: #ffffff;
     color: rgb(7, 7, 7);
+    background-attachment: fixed;
+}
+
+.logo {
+    font-weight:bold;
+    font-size:24px;
+    color: black;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+}
+.navbar ul li {
+    display: inline;
 }
 .navbar ul li a {
     text-decoration: none;
     color: rgb(8, 8, 8);
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
+.navbar ul li a:hover {
+    color: #007bff;
+}
 .book-btn {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.book-btn:hover {
+    background-color: #444;
 }
 
 /* Banner Section */
@@ -39,6 +60,13 @@
     text-align: center;
     padding: 40px;
     background-color: #fff;
+    /* position: relative; */
+    background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    justify-content: center;
+    color: white;
 }
 
 .banner h1 {
@@ -59,7 +87,7 @@
     border-radius: 5px;
 } */
 .outer-div {
-    background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg);
+    /* background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg); */
     width:100%;
     /* position: relative; */
     padding-top: 100px;
@@ -76,10 +104,12 @@
   } */
   .inner-div > h1 {
     font-family: "Nunito", Sans-serif;
-    font-size: 85px;
-    font-weight: 700;
-    line-height: 0.941em;
-    color: #000000;
+    font-size: 48px;
+    /* font-weight: 700; */
+    /* line-height: 0.941em; */
+    /* color: #000000; */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
   }
   .inner-div > h3 {
     color: #2c2828;
