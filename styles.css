@@ -102,9 +102,6 @@
   .inner-div > h1 {
     font-family: "Nunito", Sans-serif;
     font-size: 48px;
-    /* font-weight: 700; */
-    /* line-height: 0.941em; */
-    /* color: #000000; */
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
   }
