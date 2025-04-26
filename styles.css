@@ -1,75 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Navbar Styles */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: #ffffff;
-    color: rgb(7, 7, 7);
-    background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  color: rgb(7, 7, 7);
+  background-attachment: fixed;
 }
 
 .logo {
-    font-weight:bold;
-    font-size:24px;
-    color: black;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
 }
 
 .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 .navbar ul li {
-    display: inline;
+  display: inline;
 }
 .navbar ul li a {
-    text-decoration: none;
-    color: rgb(8, 8, 8);
-    font-size: 16px;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
 
 .navbar ul li a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 .book-btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .book-btn:hover {
-    background-color: #444;
+  background-color: #444;
 }
 
 /* Banner Section */
 .banner {
-    display: flex;
-    text-align: center;
-    padding: 40px;
-    background-color: #fff;
-    background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg);
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    justify-content: center;
-    color: white;
+  display: flex;
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  justify-content: center;
+  color: white;
 }
 
 .banner h1 {
-    font-size: 2.5rem;
-    color: #007bff;
+  font-size: 2.5rem;
+  color: #007bff;
 }
 
 /* .banner p {
@@ -85,106 +85,106 @@
     border-radius: 5px;
 } */
 .outer-div {
-    /* background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg); */
-    width:100%;
-    padding-top: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-  }
-  /* .inner-div-one {
+  /* background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg); */
+  width: 100%;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+/* .inner-div-one {
     position: relative;
   }
   .inner-div-one > img {
     width: 500px;
   } */
-  .inner-div > h1 {
-    font-family: "Nunito", Sans-serif;
-    font-size: 48px;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-  }
-  .inner-div > h3 {
-    color: #2c2828;
-  }
-  .inner-div > p {
-    font-size: 30px;
-    font-weight: 400;
-    color: black;
-    line-height: 30px;
-    padding-top: 40px;
-    color: #555;
-  }
-  .inner-div > button {
-    margin-top: 50px;
-    margin-left: 50px;
-    border: none;
-    color: #ffffff;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, #0bafff 0%, #132fee 90%);
-    font-family: "Roboto", Sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 55px;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 21px 29px 0px
-      rgba(248, 78.99999999999996, 26.000000000000004, 0.21568627450980393);
-    padding: 0px 31px 0px 31px;
-  }
-  .inner-div > button:hover {
-    background-color: transparent;
-    background-image: linear-gradient(90deg, #ee132f 0%, #ff780b 90%);
-  }
+.inner-div > h1 {
+  font-family: "Nunito", Sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.inner-div > h3 {
+  color: #2c2828;
+}
+.inner-div > p {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  line-height: 30px;
+  padding-top: 40px;
+  color: #555;
+}
+.inner-div > button {
+  margin-top: 50px;
+  margin-left: 50px;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #0bafff 0%, #132fee 90%);
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 55px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 21px 29px 0px
+    rgba(248, 78.99999999999996, 26.000000000000004, 0.21568627450980393);
+  padding: 0px 31px 0px 31px;
+}
+.inner-div > button:hover {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #ee132f 0%, #ff780b 90%);
+}
 
 /* Popular Destinations */
 .popular-destinations {
-    padding: 20px;
-    background-color: #fff;
+  padding: 20px;
+  background-color: #fff;
 }
 
 .destination-list {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 
 .destination {
-    text-align: center;
+  text-align: center;
 }
 
 /* Journey Guide */
 .journey-guide {
-    padding: 20px;
-    background-color: #f9f9f9;
-    text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 /* Promotion Section */
 .promotion {
-    padding: 20px;
-    display: flex;
-    gap: 15px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
 }
 
 .promo-content img {
-    width: 50%;
-    border-radius: 10px;
+  width: 50%;
+  border-radius: 10px;
 }
 
 .promo-text {
-    text-align: left;
+  text-align: left;
 }
 
 /* Footer */
 footer {
-    padding: 20px;
-    background-color: #333;
-    text-align: center;
-    color: white;
+  padding: 20px;
+  background-color: #333;
+  text-align: center;
+  color: white;
 }
 
 footer img {
-    height: 30px;
-    margin: 0 10px;
+  height: 30px;
+  margin: 0 10px;
 }
