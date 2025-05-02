@@ -65,7 +65,7 @@
 /* Banner Section */
 .banner {
   text-align: center;
-  padding: 40px;
+  /* padding: 40px; */
   background-color: #fff;
   background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg);
   background-size: cover;
@@ -78,6 +78,8 @@
 }
 .outer-div {
   display: flex;
+  justify-content: center;
+  align-items: center;
  
 }
 .banner h1 {
