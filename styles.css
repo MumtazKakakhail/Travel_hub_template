@@ -80,25 +80,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 .banner h1 {
   font-size: 2.5rem;
   color: #007bff;
 }
 
- .banner p {
-    font-size: 1.2rem;
-    color: #555;
+.banner p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
- .cta-btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-} 
+.cta-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
 .outer-div {
   /* background-image: url(./images/TheAviationMadness\ _\ Tupolev\ Tu-144\ The\ Failed….jpg); */
   width: 100%;
