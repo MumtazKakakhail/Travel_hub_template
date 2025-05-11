@@ -58,10 +58,10 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .book-btn:hover {
   background-color: #5588ca;
 }
-
 
 /* Banner Section */
 .banner {
@@ -101,7 +101,6 @@
   border-radius: 5px;
 }
 .outer-div {
-
   width: 100%;
   padding-top: 100px;
   background-repeat: no-repeat;
