@@ -186,36 +186,133 @@
 
 /* Journey Guide */
 .journey-guide {
-  padding: 20px;
+  padding: 40px 0;
   background-color: #f9f9f9;
   text-align: center;
 }
 
-/* Promotion Section */
-.promotion {
-  padding: 20px;
+.journey-guide h2 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.steps {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,123,255,0.07);
+  padding: 24px 32px;
+  min-width: 220px;
+  max-width: 320px;
+  margin: 10px 0;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.step:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,123,255,0.13);
+}
+
+.step h3 {
+  color: #132fee;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Promotional Offer Section */
+.promotion {
+  padding: 40px 0;
+  background: linear-gradient(90deg, #e3f0ff 0%, #f8f9fa 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 900px;
+  width: 100%;
 }
 
 .promo-content img {
-  width: 50%;
-  border-radius: 10px;
+  width: 320px;
+  max-width: 45vw;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,123,255,0.08);
 }
 
 .promo-text {
   text-align: left;
 }
 
+.promo-text h2 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.promo-text p {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.book-flight-btn {
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #0bafff 0%, #132fee 90%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,123,255,0.13);
+  transition: background 0.3s;
+}
+
+.book-flight-btn:hover {
+  background: linear-gradient(90deg, #ee132f 0%, #ff780b 90%);
+}
+
 /* Footer */
 footer {
-  padding: 20px;
+  padding: 24px 0;
   background-color: #333;
   text-align: center;
-  color: white;
+  color: #fff;
+}
+
+footer .partners {
+  margin-bottom: 10px;
 }
 
 footer img {
-  height: 30px;
-  margin: 0 10px;
+  height: 32px;
+  margin: 0 12px;
+  vertical-align: middle;
+  filter: grayscale(1) brightness(1.2);
+  opacity: 0.8;
+  transition: filter 0.3s, opacity 0.3s;
+}
+
+footer img:hover {
+  filter: none;
+  opacity: 1;
 }
